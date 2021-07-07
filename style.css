@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./bing\ homepage.jpg);
+    background-position:unset;
+    background-size: cover;
+
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+.section {
+    height: 0vh;
+}
+.section_container {
+   
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.nav_item-menubar {
+    position: absolute;
+    right: 150px;
+    top: 13px;   
+}
+.nav_item-profile {
+    position: absolute;
+    right: 205px; ;
+}
+.nav_item-menubar > a > svg {
+    width: 20px;
+    height: 20px;
+}
+.nav_item-profile > a > svg {
+    width: 32px;
+    height: 32px;
+}
+.nav_item-singin {
+    position: absolute;
+    right: 248px;
+    top: 15px;  
+     
+}
+.nav_link-signin {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav_item-threedots {
+    position: absolute;
+    left: 518px;
+    font-size: 22px;
+    top: 5px;
+}
+.nav_item-videos {
+    position: absolute;
+    left: 440px;
+    top: 15px;;
+}
+.nav_item-videos > a {
+    font-size: 13px;
+    
+}
+.nav_item-image {
+    position: absolute;
+    left: 370px;
+    top: 15px;
+}
+.nav_item-image >a {
+    font-size: 13px;
+}
+.nav_item-microsoftlogo {
+    position: relative;
+    left: 128px;
+    top: px;
+
+}
+
+.main {
+    position: absolute;
+    left: 49%;
+    top: 26%;
+    transform: translate(-50%, -50%);
+}
+.form_search input {
+    width: 44vw;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.form_search-icon {
+    position: absolute;
+    left: 560px;
+    top: 12px;
+}
+.form_middle-icon {
+    position: absolute;
+    left: 525px;
+    top: 11px;
+}
+
+
+.form_mic-icon {
+    position: absolute;
+    left: 490px;
+    top: 12px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color:#333333 ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    }
+    .footer_bottom-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+        padding-left: 140px;
+        color: #666666;
+        font-size: 12px;     
+    }
+    .copyright {
+        position: absolute;
+        right: 170px;;
+    }
+    .upper_footer {
+        position: absolute;
+        right: 130px;
+        bottom: 30px;
+    }
+    .upper_footer .info {
+        background-color: #2A261F;
+        width: 95px;
+        height: 35px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+        margin-right: 0px;
+        padding-right: 0 ;
+        cursor: pointer;
+    }
+    .upper_footer .info svg {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        margin-left: -25px;
+        
+    }
+    .upper_footer .left_arrow {
+        width: 35px;
+        height: 35px;
+        background-color: #2A261F;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+        margin: 0px;
+        cursor: pointer;
+        padding-right: 0;
+        margin-right: 1px;
+    }
+    .upper_footer .right_arrow {
+        width: 35px;
+        height: 35px;
+        background-color: #2A261F;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+
+
+
